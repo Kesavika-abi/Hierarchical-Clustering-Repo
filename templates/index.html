@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Order Behavior Clustering</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Food Order Behavior Clustering</h1>
+        <form action="/result" method="post" enctype="multipart/form-data">
+            <label>Upload CSV File:</label><br>
+            <input type="file" name="file" accept=".csv" required><br><br>
+            
+            <label>Number of Clusters:</label><br>
+            <input type="number" name="clusters" min="2" max="10" required><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

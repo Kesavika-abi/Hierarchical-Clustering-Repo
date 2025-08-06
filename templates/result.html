@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clustering Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Clustering Results</h1>
+        <img src="{{ url_for('static', filename='cluster_plot.png') }}" alt="Cluster Plot" style="width:80%;"><br><br>
+        
+        <h2>Clustered Data</h2>
+        <div class="table-container">
+            {{ tables[0]|safe }}
+        </div>
+        <br>
+        <a href="/">← Upload Another File</a>
+    </div>
+</body>
+</html>
