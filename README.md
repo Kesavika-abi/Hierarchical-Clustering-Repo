@@ -1,7 +1,7 @@
 
 # Food Order Behavior Clustering Web Application
 
-## Project Overview
+## ProjectOverview
 
 This is a Flask-based machine learning web application designed to segment users based on their food ordering behavior. The app uses **Hierarchical Clustering (Agglomerative Clustering)** to group users by analyzing features such as total number of orders, preferred meal type, and average time of order. The clustered results are displayed through an interactive table and a visual plot.
 
