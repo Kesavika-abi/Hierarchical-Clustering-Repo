@@ -107,12 +107,22 @@ After uploading a valid dataset and selecting the number of clusters:
 
 ## screenshots
 
+## Input
+
 ![alt text](<input form.png>)
+
+## CSV Upload
 
 ![alt text](<csv upload.png>)
 
+## Input
+
 ![input](input.png)
 
+## Cluster Result
+
 ![alt text](<cluster result.png>)
+
+## Cluster Data
 
 ![alt text](<cluster data.png>)
